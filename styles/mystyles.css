@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    color:#00ffab ;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: lightblue;
+    padding-left: 10px;
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    background: #913f92;
+}
+
+p {
+    color: white;
+    padding-left: 10px;
+    font-family: "Palatino Linotype", sans-serif;
+    font-size: 15px;
+}
+
+
+
+/* Top Nav Styles*/
+nav.topnav ul {
+    list-style: none;
+    font-family: monospace, sans-serif;
+}
+
+nav.topnav ul li {
+    float: left;
+    margin-right: 3px;
+}
+
+nav.topnav ul li a {
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+    background-color: maroon;
+    color: greenyellow;
+    border: 2px solid black;
+    border-radius: 1em 1em 1em 1em;            
+}
+
+nav.top_nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    box-sizing: larger;
+    background-color: white;
+    font-weight: bold;
+}
